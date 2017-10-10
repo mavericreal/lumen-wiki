@@ -76,7 +76,8 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - Mission: mission.md
+  - Mission: index.md
+  # - Mission: mission.md
   - The Problem: the-problem.md
   - The Solution: the-solution.md
   # - Extensions:
