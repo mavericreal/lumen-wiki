@@ -19,17 +19,17 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_description: A Material Design theme for MkDocs
-site_author: Martin Donath
-site_url: http://squidfunk.github.io/mkdocs-material/
+site_name: The Lumen Protocol
+site_description: Illuminate trust within your professional network.
+site_author:
+site_url: http://www.lumen.pro
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: joinmonday/lumen-wiki
+repo_url: https://github.com/joinmonday/lumen-wiki
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
+# copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
 
 # Theme directory
 theme_dir: material
@@ -39,17 +39,17 @@ extra:
   feature:
     tabs: false
   palette:
-    primary: indigo
+    primary: blue grey
     accent: indigo
-  social:
-    - type: globe
-      link: http://struct.cc
-    - type: github-alt
-      link: https://github.com/squidfunk
-    - type: twitter
-      link: https://twitter.com/squidfunk
-    - type: linkedin
-      link: https://linkedin.com/in/squidfunk
+  # social:
+  #   - type: globe
+  #     link: http://struct.cc
+  #   - type: github-alt
+  #     link: https://github.com/squidfunk
+  #   - type: twitter
+  #     link: https://twitter.com/squidfunk
+  #   - type: linkedin
+  #     link: https://linkedin.com/in/squidfunk
 
 # Extensions
 markdown_extensions:
@@ -76,22 +76,27 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - Material: index.md
-  - Getting started: getting-started.md
-  - Extensions:
-    - Admonition: extensions/admonition.md
-    - CodeHilite: extensions/codehilite.md
-    - Footnotes: extensions/footnotes.md
-    - Metadata: extensions/metadata.md
-    - Permalinks: extensions/permalinks.md
-    - PyMdown: extensions/pymdown.md
-  - Specimen: specimen.md
-  - Customization: customization.md
-  - Release notes: release-notes.md
-  - Contributing: contributing.md
-  - License: license.md
+  - Mission: mission.md
+  - The Problem: the-problem.md
+  - The Solution: the-solution.md
+  # - Extensions:
+  #   - Admonition: extensions/admonition.md
+  #   - CodeHilite: extensions/codehilite.md
+  #   - Footnotes: extensions/footnotes.md
+  #   - Metadata: extensions/metadata.md
+  #   - Permalinks: extensions/permalinks.md
+  #   - PyMdown: extensions/pymdown.md
+  # - Specimen: specimen.md
+  # - Customization: customization.md
+  # - Release notes: release-notes.md
+  # - Contributing: contributing.md
+  # - License: license.md
 
 # Google Analytics
 google_analytics:
   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
   - auto
+
+
+extra:
+  logo: 'images/logo.svg'
